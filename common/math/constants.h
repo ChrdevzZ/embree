@@ -12,6 +12,14 @@
 #include <cfloat>
 #include <climits>
 
+#ifndef M_PI
+#  define M_PI 3.14159265358979323846
+#endif
+
+#ifndef M_1_PI
+#  define M_1_PI 0.31830988618379067154
+#endif
+
 namespace embree
 {
   static MAYBE_UNUSED const float one_over_255 = 1.0f/255.0f;
