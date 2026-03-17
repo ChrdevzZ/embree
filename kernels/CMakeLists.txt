@@ -210,11 +210,11 @@ embree_files(EMBREE_LIBRARY_FILES_AVX ${AVX})
 embree_files(EMBREE_LIBRARY_FILES_AVX2 ${AVX2})
 embree_files(EMBREE_LIBRARY_FILES_AVX512 ${AVX512})
 
-#message("SSE2: ${EMBREE_LIBRARY_FILES_SSE2}")
-#message("SSE42: ${EMBREE_LIBRARY_FILES_SSE42}")
-#message("AVX: ${EMBREE_LIBRARY_FILES_AVX}")
-#message("AVX2: ${EMBREE_LIBRARY_FILES_AVX2}")
-#message("AVX512: ${EMBREE_LIBRARY_FILES_AVX512}")
+#message("-- Embree: SSE2: ${EMBREE_LIBRARY_FILES_SSE2}")
+#message("-- Embree: SSE42: ${EMBREE_LIBRARY_FILES_SSE42}")
+#message("-- Embree: AVX: ${EMBREE_LIBRARY_FILES_AVX}")
+#message("-- Embree: AVX2: ${EMBREE_LIBRARY_FILES_AVX2}")
+#message("-- Embree: AVX512: ${EMBREE_LIBRARY_FILES_AVX512}")
 
 # replaces all .cpp files with a dummy file that includes that .cpp file
 # this is to work around an ICC name mangling issue related to lambda functions under windows
